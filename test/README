@@ -1,0 +1,6 @@
+This folder contains Django projects that are set up specifically for testing
+the django-otp (and related) apps. Use tox to test in a variety of environments
+and generate coverage data.
+
+default_user should pass tests in all environments. custom_user should pass
+tests in 1.5+. exotic_user should skip most tests in 1.5+.
